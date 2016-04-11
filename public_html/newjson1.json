@@ -1,0 +1,45 @@
+{
+    "snapshot": {
+        "id": 7,
+        "monitoringTime": "2016-04-10T13:41:00.242+02:00",
+        "instanceName": "__all__",
+        "usedHeapSize": 307868760,
+        "threadCount": 106,
+        "peakThreadCount": 128,
+        "totalErrors": 0,
+        "currentThreadBusy": 1,
+        "committedTX": 341,
+        "rolledBackTX": 0,
+        "queuedConnections": 0,
+        "activeSessions": 1,
+        "expiredSessions": 1,
+        "pools": [{
+                "id": 11,
+                "jndiName": "DerbyPool",
+                "numconnfree": 8,
+                "waitqueuelength": 0,
+                "numpotentialconnleak": 0,
+                "numconnused": 0
+            }, {
+                "id": 12,
+                "jndiName": "__TimerPool",
+                "numconnfree": 8,
+                "waitqueuelength": 0,
+                "numpotentialconnleak": 0,
+                "numconnused": 0
+            }],
+        "apps": [{
+                "id": 8,
+                "applicationName": "ejb-timer-service-app",
+                "components": ["TimerBean", "server"]
+            }, {
+                "id": 9,
+                "applicationName": "lightfish",
+                "components": ["AddScript", "ApplicationMonitoring", "ApplicationsResource", "ApplicationsSocket", "AsyncTransmitterService", "CometTransmitterDelegate", "ConfigurationStore", "Configurator", "DataSourceConfiguration", "DomainInformation", "EditNotifier", "EditScript", "EscalationNotificationBroker", "LoggerProducer", "LogsService", "MonitoringController", "MonitoringResource", "NotifierStore", "PollingResource", "ScriptingResource", "ServerInfoResource", "ServerInformation", "SessionTokenRetriever", "SnapshotEscalator", "SnapshotEventBroker", "SnapshotsSocket", "server"]
+            }, {
+                "id": 10,
+                "applicationName": "__default-web-module",
+                "components": ["server"]
+            }]
+    }
+}

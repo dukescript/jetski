@@ -1,0 +1,44 @@
+{
+    "snapshot": {
+        "id": "12709",
+        "threadCount": "111",
+        "instanceName": "__all__",
+        "activeSessions": "-21",
+        "monitoringTime": "Sun Apr 10 13:12:54 CEST 2016",
+        "deadlockedThreads": "null",
+        "logRecords": [],
+        "apps": [{
+                "applicationName": "ejb-timer-service-app",
+                "components": ["TimerBean", "server"]
+            }, {
+                "applicationName": "lightfish",
+                "components": ["AddScript", "ApplicationMonitoring", "ApplicationsResource", "ApplicationsSocket", "AsyncTransmitterService", "CometTransmitterDelegate", "ConfigurationStore", "Configurator", "DataSourceConfiguration", "DomainInformation", "EditNotifier", "EditScript", "EscalationNotificationBroker", "LoggerProducer", "LogsService", "MonitoringController", "MonitoringResource", "NotifierStore", "PollingResource", "ScriptingResource", "ServerInfoResource", "ServerInformation", "SessionTokenRetriever", "SnapshotEscalator", "SnapshotEventBroker", "SnapshotsSocket", "SnapshotsSocketJSON", "server"]
+            }, {
+                "applicationName": "__default-web-module",
+                "components": ["server"]
+            }],
+        "pools": [{
+                "id": "12713",
+                "jndiName": "DerbyPool",
+                "numconnfree": "8",
+                "numconnused": "0",
+                "numpotentialconnleak": "0",
+                "waitqueuelength": "0"
+            }, {
+                "id": "12714",
+                "jndiName": "__TimerPool",
+                "numconnfree": "8",
+                "numconnused": "0",
+                "numpotentialconnleak": "0",
+                "waitqueuelength": "0"
+            }],
+        "usedHeapSize": "426204424",
+        "totalErrors": "7",
+        "currentThreadBusy": "0",
+        "committedTX": "27546",
+        "rolledBackTX": "10",
+        "queuedConnections": "0",
+        "expiredSessions": "23",
+        "peakThreadCount": "141"
+    }
+}
