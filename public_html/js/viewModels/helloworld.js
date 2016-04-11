@@ -2,7 +2,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojknockout', 'ojs/ojinputtext', 'ojs/ojbu
 ], function (oj, ko) {
     function homeContentViewModel() {
         var self = this;
-        this.url = ko.observable("ws://localhost:8080/lightfish/snapshots/");
+        this.url = ko.observable("ws://localhost:8080/lightfish/snapshots/json/");
         self.connect = function (data) {
             websocket = new WebSocket(data.url());
             websocket.onmessage = function (evt) {
