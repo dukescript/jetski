@@ -10,4 +10,4 @@ The Application depends on Adam Bien's [Lightfish](http://lightfish.adam-bien.co
 
 Now deploy the "JetSki" application to a server of your choice and open index.html. Pressing the "connect" Button will connect the application with the websocket to retrieve and display data.
 
-Other than most projects we host here, this one is plain JavaScript. The DukeScript version is [here](https://github.com/dukescript/ds-jetski/)
+Other than most projects we host here, this one is plain JavaScript. The DukeScript version is [here](https://github.com/dukescript/dsjetski/)
